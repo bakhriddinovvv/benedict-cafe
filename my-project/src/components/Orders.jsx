@@ -1,5 +1,6 @@
 import React from "react";
 import { FaChevronLeft } from "react-icons/fa6";
+import { AiFillFileUnknown } from "react-icons/ai";
 function Order(props) {
   return (
     <div
@@ -25,7 +26,7 @@ function Order(props) {
           Barchasi
         </button>
       </div>
-      <img src="img/order.png" className="mx-auto mt-12" alt="" />
+      <AiFillFileUnknown className="h-20 w-full my-4" />
       <p className="w-[75%] mx-auto text-center mt-2 ">
         So’rovingiz bo’yicha xech qanday natija topilmadi
       </p>

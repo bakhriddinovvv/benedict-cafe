@@ -35,19 +35,35 @@ function Header(props) {
       >
         Yetkazish manzilini tanlang <FaChevronDown />
       </button>
-      <img src="img/Untitled.png " className="w-[90%] mx-auto mt-4" alt="" />
+      <img
+        src="https://robosell.ams3.digitaloceanspaces.com/robosell/banner/mobile/benedict.png "
+        className="w-[90%] mx-auto mt-4 rounded-[10px]"
+        alt=""
+      />
 
       <div className="flex overflow-x-scroll w-[90%] mx-auto gap-4 pb-4 mt-6 ">
         <a href="#limonads" className="  ">
-          <img src="img/category.png" className="" alt="" />
+          <img
+            src="https://robosell.ams3.digitaloceanspaces.com/robosell/category/923-117107.webp"
+            className="h-20 w-22  rounded-[10px]"
+            alt=""
+          />
           <p className="text-center text-[0.9rem] font-[500]">Limonadlar</p>
         </a>
         <a href="#limonads2" className="  ">
-          <img src="img/category.png" className="" alt="" />
+          <img
+            src="https://robosell.ams3.digitaloceanspaces.com/robosell/category/923-117107.webp"
+            className="h-20 w-22 rounded-[10px]"
+            alt=""
+          />
           <p className="text-center text-[0.9rem] font-[500]">Limonadlar</p>
         </a>
         <a href="#limonads3" className="  ">
-          <img src="img/category.png" className="" alt="" />
+          <img
+            src="https://robosell.ams3.digitaloceanspaces.com/robosell/category/923-117107.webp"
+            className="h-20 w-22  rounded-[10px] "
+            alt=""
+          />
           <p className="text-center text-[0.9rem] font-[500]">Limonadlar</p>
         </a>
       </div>

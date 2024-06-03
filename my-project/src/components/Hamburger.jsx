@@ -27,7 +27,11 @@ function Hamburger(props) {
         <MdOutlineClose />
       </button>
       <div>
-        <img src="img/benedict.png" className="mx-auto mt-8" alt="" />
+        <img
+          src="https://robosell.ams3.digitaloceanspaces.com/robosell/shop/logo/1711863070026.png"
+          className="mx-auto mt-10 h-20 w-24"
+          alt=""
+        />
         <div className="text-[1.1rem] font-[500] text-gray-400 pl-6 pt-12">
           <button
             onClick={() => {
@@ -72,7 +76,7 @@ function Hamburger(props) {
             Biz haqimizda
           </button>
 
-          <p className="flex items-center gap-2 mt-4 text-black font-[450] hover:bg-gray-200 p-1 border border-gray-400 w-36 px-4 py-1 rounded-lg">
+          <p className="flex items-center gap-2 mt-12 text-black font-[450] hover:bg-gray-200 p-1 border border-gray-400 w-36 px-4 py-1 rounded-lg">
             <img
               className="h-4 w-4 "
               src="https://cdn-icons-png.flaticon.com/512/630/630641.png"
@@ -81,7 +85,7 @@ function Hamburger(props) {
             O'zbekcha
             <FaChevronDown />
           </p>
-          <div className="flex items-center gap-2 mt-8 bg-gray-100 pl-2 w-[80%] rounded-[10px]">
+          <div className="flex items-center gap-2 mt-12 bg-gray-100 pl-2 w-[80%] rounded-[10px]">
             <FcManager className="h-10 w-10 " />
             <div className="flex flex-col items-start">
               <p className="text-gray-600">Aloqa uchun</p>

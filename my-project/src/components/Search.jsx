@@ -34,7 +34,7 @@ function Search(props) {
         <div className="flex py-2 mt-8 items-center pl-2 bg-white rounded-[10px] border border-gray-400 overflow-hidden">
           <img
             className="h-10  w-10 rounded-[8px]"
-            src="img/limonad.png"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPOPy61x8aFcP3F3aBptWtszZrNsC7oIiOdA&s"
             alt=""
           />
           <div className="flex flex-col ml-4">
@@ -51,7 +51,7 @@ function Search(props) {
         <div className="flex py-2 mt-4 items-center pl-2 bg-white rounded-[10px] border border-gray-400 overflow-hidden">
           <img
             className="h-10  w-10 rounded-[8px]"
-            src="img/limonad.png"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPOPy61x8aFcP3F3aBptWtszZrNsC7oIiOdA&s"
             alt=""
           />
           <div className="flex flex-col ml-4">

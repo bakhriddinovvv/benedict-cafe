@@ -19,7 +19,11 @@ function About(props) {
         <p className="font-bold">Biz haqimizda</p>
       </div>
 
-      <img className="mx-auto mt-8 h-16 w-24" src="img/benedict.png" alt="" />
+      <img
+        className="mx-auto mt-8 h-16 w-24"
+        src="https://robosell.ams3.digitaloceanspaces.com/robosell/shop/logo/1711863070026.png"
+        alt=""
+      />
       <p className="text-center font-bold mt-8 text-[1.1rem]">Benedict Nukus</p>
       <p className="ml-6 font-bold mt-12">Ish vaqti</p>
       <div className="flex justify-between text-gray-500 mx-6">

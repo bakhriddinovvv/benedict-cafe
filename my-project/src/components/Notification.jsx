@@ -1,5 +1,6 @@
 import React from "react";
 import { FaChevronLeft } from "react-icons/fa6";
+import { IoNotificationsOffSharp } from "react-icons/io5";
 function Notification(props) {
   return (
     <div
@@ -18,7 +19,7 @@ function Notification(props) {
         <p> Bildirishnomalar</p>
       </div>
 
-      <img src="img/order.png" className="mx-auto mt-12" alt="" />
+      <IoNotificationsOffSharp className="h-20 w-full my-4" />
       <p className="w-[75%] mx-auto text-center mt-2 ">
         So’rovingiz bo’yicha xech qanday natija topilmadi
       </p>

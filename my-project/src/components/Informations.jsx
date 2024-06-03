@@ -7,7 +7,7 @@ function Informations(props) {
 
   return (
     <div
-      className={`fixed overflow-y-scroll  top-0 right-0 w-full h-[50%] border-b border-black rounded-b-[15px] bg-white  transform transition-transform ${
+      className={`fixed overflow-y-scroll  top-0 right-0 w-full h-[60%] border-b border-black rounded-b-[15px] bg-white  transform transition-transform ${
         props.info ? "translate-x-0" : "translate-x-full"
       }`}
     >

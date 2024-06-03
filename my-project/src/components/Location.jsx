@@ -1,5 +1,6 @@
 import React from "react";
 import { FaChevronLeft } from "react-icons/fa6";
+import { TbCurrentLocationOff } from "react-icons/tb";
 function Location(props) {
   return (
     <div
@@ -26,8 +27,7 @@ function Location(props) {
           +
         </button>
       </div>
-
-      <img src="img/order.png" className="mx-auto mt-12" alt="" />
+      <TbCurrentLocationOff className="h-20 w-full my-6" />
       <p className="w-[75%] mx-auto text-center mt-2 ">
         So’rovingiz bo’yicha xech qanday natija topilmadi
       </p>

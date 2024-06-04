@@ -12,7 +12,7 @@ function Informations(props) {
       }`}
     >
       {myInfo == false ? (
-        <form className="w-[90%] mx-auto">
+        <div className="w-[90%] mx-auto">
           <button
             onClick={() => {
               props.setInfo(false);
@@ -59,7 +59,7 @@ function Informations(props) {
               Davom etish
             </button>
           </div>
-        </form>
+        </div>
       ) : (
         ""
       )}

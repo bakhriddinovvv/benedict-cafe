@@ -10,6 +10,7 @@ import Informations from "./components/Informations";
 import Order from "./components/Orders";
 import Location from "./components/Location";
 import Notification from "./components/Notification";
+import Phone from "./components/Phone";
 function App() {
   const [isOpen, setIsOpen] = useState(false);
   const [searchIsOpen, setSearchIsOpen] = useState(false);
@@ -19,6 +20,7 @@ function App() {
   const [order, setOrder] = useState(false);
   const [location, setLocation] = useState(false);
   const [notification, setNotification] = useState(false);
+  const [phone, setPhone] = useState(false);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -33,6 +35,7 @@ function App() {
         mapIsOpen={mapIsOpen}
         toggleMenu={toggleMenu}
         toggleSearch={toggleSearch}
+        setPhone={setPhone}
       />
       <Hamburger
         setAboutIsOpen={setAboutIsOpen}
@@ -58,6 +61,7 @@ function App() {
         notification={notification}
         setNotification={setNotification}
       />
+      <Phone phone={phone} setPhone={setPhone} />
     </>
   );
 }

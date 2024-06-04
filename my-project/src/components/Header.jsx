@@ -3,6 +3,7 @@ import React from "react";
 import { FaSearch } from "react-icons/fa";
 import { FaChevronDown } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { MdOutlinePhoneInTalk } from "react-icons/md";
 
 function Header(props) {
   return (
@@ -13,6 +14,14 @@ function Header(props) {
         </p>
 
         <div className="flex gap-4 ">
+          <button
+            onClick={() => {
+              props.setPhone(true);
+            }}
+            className="bg-gray-200 p-3 rounded-full"
+          >
+            <MdOutlinePhoneInTalk />
+          </button>
           <button
             onClick={props.toggleSearch}
             className="bg-gray-200 p-3 rounded-full"

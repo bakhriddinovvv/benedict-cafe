@@ -45,6 +45,9 @@ function Header(props) {
         Yetkazish manzilini tanlang <FaChevronDown />
       </button>
       <img
+        onClick={() => {
+          props.setMealItem(true);
+        }}
         src="https://robosell.ams3.digitaloceanspaces.com/robosell/banner/mobile/benedict.png "
         className="w-[90%] mx-auto mt-4 rounded-[10px]"
         alt=""
